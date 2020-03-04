@@ -73,8 +73,23 @@ img {
   height: 100%;
 }
 
-.sidebar-category span {
+.sidebar-category-title,
+.sidebar-category-time,
+.sidebar-category-degree {
+  color: white;
+}
+
+.sidebar-category-name,
+.sidebar-category-name span {
   color: #7aaed8;
+}
+
+.sidebar-category-degree,
+.sidebar-category-name,
+.sidebar-category-time {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
 }
 
 .sidebar-title {
@@ -90,10 +105,6 @@ img {
 .sidebar-links {
   margin-top: 30px;
   text-align: center;
-}
-
-.sidebar p {
-  color: white;
 }
 
 .sidebar ul {
@@ -112,14 +123,6 @@ img {
 .sidebar-category-title {
   font-size: 20px;
   letter-spacing: 4px;
-}
-
-.sidebar-category-degree,
-.sidebar-category-name,
-.sidebar-category-time {
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 0;
 }
 
 .sidebar-category-item {
