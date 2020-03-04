@@ -248,6 +248,10 @@ section:last-child {
   color: #236FB2;
 }
 
+.job div ul {
+  padding-left: 22px;
+}
+
 /***********************************
 * =Game Jam items
 ***********************************/
@@ -286,8 +290,7 @@ section:last-child {
 
 .skills-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 25% 25%;
   margin-top: 10px;
 }
 
