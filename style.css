@@ -308,9 +308,7 @@ section:last-child {
     grid-template-columns: 1fr;
   }
 
-  .skills-container {
-    grid-template-columns: 1fr 1fr;
-  }
+
 
   .interests-container {
     flex-wrap: wrap;
@@ -339,11 +337,5 @@ section:last-child {
   @media screen and (max-width: 400px) {
     .sidebar a {
       text-align: center;
-    }
-    .fa {
-      padding: 3px;
-      margin: 3px;
-      font-size: 25px;
-      width: 31px;
     }
   }
