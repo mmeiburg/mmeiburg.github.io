@@ -256,12 +256,12 @@ section:last-child {
 ***********************************/
 
 .jam-title-container {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  display: flex;
 }
 
 .jam-item-header {
-  display: flex;
-  justify-content: space-between;
+  margin-right: 5px
 }
 
 .jam-item {
